@@ -59,4 +59,4 @@ Every sandbox is tagged, budgeted and owned by one person, and the reaper destro
 
 ## Licence
 
-See [LICENSE](LICENSE): free to install and use in your own tenancy; no redistribution.
+Apache License 2.0, see [LICENSE](LICENSE). Source: https://github.com/ashishsinha1602/oci-sandbox-factory-src
