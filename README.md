@@ -12,12 +12,14 @@ This module is the **foundation** of [Sandbox Factory](https://github.com/ashish
 
 About 15 minutes. Needs a tenancy administrator and a pay-as-you-go account. Read [PREREQUISITES](https://github.com/ashishsinha1602/oci-sandbox-factory/blob/main/docs/PREREQUISITES.md) and [SECURITY](https://github.com/ashishsinha1602/oci-sandbox-factory/blob/main/docs/SECURITY.md) first: the stack creates compartments, a VCN, a budget, IAM dynamic groups and policies, an Always Free Autonomous Database for control, and three worker container instances.
 
+Free Tier account? Set `edition = "free"` (Always Free resources only; see FREE-TIER in the project docs).
+
 ## Use as a Terraform stack
 
 ```hcl
 module "sandbox_factory" {
   source  = "ashishsinha1602/sandbox-factory/oci"
-  version = "1.0.8"
+  version = "1.1.0"
 
   tenancy_ocid            = "ocid1.tenancy.oc1..xxxx"
   region                  = "us-phoenix-1"
