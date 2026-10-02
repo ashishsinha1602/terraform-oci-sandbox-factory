@@ -19,7 +19,7 @@ Free Tier account? Set `edition = "free"` (Always Free resources only; see FREE-
 ```hcl
 module "sandbox_factory" {
   source  = "ashishsinha1602/sandbox-factory/oci"
-  version = "1.1.1"
+  version = "1.2.0"
 
   tenancy_ocid            = "ocid1.tenancy.oc1..xxxx"
   region                  = "us-phoenix-1"
